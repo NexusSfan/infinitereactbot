@@ -95,7 +95,7 @@ class ReactBot(Plugin):
 
     @event.on(EventType.ROOM_MESSAGE)
     async def event_handler(self, evt: MessageEvent) -> None:
-        if evt.sender == self.client.mxid or evt.content.msgtype not in self.allowed_msgtypes:
+        if evt.content.msgtype not in self.allowed_msgtypes:
             return
         for name, rule in self.config.rules.items():
             match = rule.match(evt)
