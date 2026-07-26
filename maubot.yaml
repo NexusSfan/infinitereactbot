@@ -3,7 +3,7 @@ id: cz.nexussfan.infinitereactbot
 version: 2.2.1
 license: AGPL-3.0-or-later
 modules:
-- reactbot
-main_class: ReactBot
+- infinitereactbot
+main_class: InfiniteReactBot
 extra_files:
 - base-config.yaml

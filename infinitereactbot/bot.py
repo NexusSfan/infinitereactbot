@@ -25,7 +25,7 @@ from mautrix.util.config import BaseProxyConfig
 
 from .config import Config, ConfigError
 
-class ReactBot(Plugin):
+class InfiniteReactBot(Plugin):
     allowed_msgtypes: Tuple[MessageType, ...] = (MessageType.TEXT, MessageType.EMOTE)
 
     @classmethod
