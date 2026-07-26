@@ -29,13 +29,6 @@ templates:
             body: $${text}
             m.relates_to: $${relates_to}
 
-antispam:
-  room:
-    max: 60
-    delay: 60
-  user:
-    max: 60
-    delay: 60
 
 rules:
     thread:

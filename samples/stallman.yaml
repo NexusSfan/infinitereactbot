@@ -10,13 +10,6 @@ templates:
 default_flags:
 - ignorecase
 
-antispam:
-    room:
-        max: 1
-        delay: 60
-    user:
-        max: 2
-        delay: 60
 
 rules:
     linux:
